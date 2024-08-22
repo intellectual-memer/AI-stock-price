@@ -35,7 +35,7 @@ llm = Ollama(
     base_url='http://0.0.0.0:11434',
     #base_url='http://127.0.0.1:11434',
     #base_url='http://192.168.1.151:11434',
-    model="llama3"
+    model='llama3'
 )
 
 ##############
