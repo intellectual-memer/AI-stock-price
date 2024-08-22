@@ -36,7 +36,6 @@ llm = Ollama(
     #base_url='http://192.168.1.151:11434',
     model="llama3"
 )
-print(Ollama.invoke("why is the sky blue"))
 
 ##############
 ### PART 2 ###
