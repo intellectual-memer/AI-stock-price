@@ -4,9 +4,6 @@
 # & OLLAMA ##
 #############
 
-# Download and run the Ollama Linux install script
-!curl -fsSL https://ollama.com/install.sh | sh
-!command -v systemctl >/dev/null && sudo systemctl stop ollama
 
 # Data Importing Libraries
 import yfinance as yf
