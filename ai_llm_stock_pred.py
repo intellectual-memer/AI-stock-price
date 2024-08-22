@@ -29,8 +29,11 @@ import streamlit as st
 
 
 # Connect to local Ollama server
-llm = Ollama(model='llama3')
-
+#llm = Ollama(model='llama3')
+llm = Ollama(
+    base_url='http://localhost:11434',
+    model="llama3"
+)
 
 ##############
 ### PART 2 ###
