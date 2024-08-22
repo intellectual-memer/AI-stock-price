@@ -7,3 +7,4 @@ plotly
 holidays
 langchain_community
 streamlit
+ollama
