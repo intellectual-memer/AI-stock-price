@@ -33,7 +33,7 @@ import streamlit as st
 #llm = Ollama(model='llama3')
 llm = Ollama(
     #base_url='http://0.0.0.0',
-    base_url='http://localhost',
+    base_url='http://localhost:11434',
     #base_url='http://192.168.1.151:11434',
     model='llama3'
 )
